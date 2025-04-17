@@ -1,8 +1,8 @@
 <?php
-$server = "<your-sql-server>.database.windows.net";
-$database = "<your-database>";
-$username = "<your-username>";
-$password = "<your-password>";
+$server = "studentregistrationsystem-server.database.windows.net";
+$database = "studentregistrationsystem-database";
+$username = "adminravneet";
+$password = "P@ssw0rd";
 
 try {
     $conn = new PDO("sqlsrv:server=$server;Database=$database", $username, $password);
